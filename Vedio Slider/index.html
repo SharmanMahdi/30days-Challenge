@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Video Slider</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="video-sliding">
+        <video autoplay muted loop src="assets/videos/v1.mp4" id="video"></video>
+        <ul class="thumbnail">
+            <li onclick="videoURL('assets/videos/v1.mp4')">
+                <img src="assets/images/thumb1.PNG"></li>
+            <li onclick="videoURL('assets/videos/v2.mp4')">
+                <img src="assets/images/thumb2.PNG"></li>  
+            <li onclick="videoURL('assets/videos/v3.mp4')">
+                <img src="assets/images/thumb3.PNG"></li>
+            <li onclick="videoURL('assets/videos/v4.mp4')">
+                <img src="assets/images/thumb4.PNG"></li>
+            <li onclick="videoURL('assets/videos/v5.mp4')">
+                <img src="assets/images/thumb5.PNG"></li>
+        </ul>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
